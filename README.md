@@ -1,52 +1,33 @@
-# ConvertBooking — AI-Powered Booking Agent
+# convertbooking-landing2
 
-Landing page for ConvertBooking, an agentic booking agent that helps local businesses get more customers by optimizing across Google Maps, Tripadvisor, Yelp, Dianping, and more.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
 
-## Tech Stack
+## Built with v0
 
-- Next.js 14 (App Router)
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
-- next-themes (dark/light mode)
+This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+
+[Continue working on v0 →](https://v0.app/chat/projects/prj_DqWxUe68sWOirO1PE2g08nSQZd49)
 
 ## Getting Started
 
+First, run the development server:
+
 ```bash
-# Install dependencies
-pnpm install
-
-# Start development server
+npm run dev
+# or
+yarn dev
+# or
 pnpm dev
-
-# Build for production
-pnpm build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the landing page.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Structure
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```
-app/
-  layout.tsx       — Root layout with font, theme provider
-  page.tsx         — Landing page composition
-  globals.css      — Tailwind directives + custom design tokens
-components/
-  navbar.tsx       — Sticky navigation with mobile sheet
-  hero.tsx         — Hero section with dashboard mockup
-  social-proof.tsx — Platform logo bar
-  problem.tsx      — Pain points section
-  how-it-works.tsx — 3-step flow
-  features.tsx     — 6 feature cards
-  platforms.tsx    — Platform deep-dive
-  testimonials.tsx — Customer testimonials
-  pricing.tsx      — 3-tier pricing
-  faq.tsx          — FAQ accordion
-  cta-section.tsx  — Final CTA
-  footer.tsx       — Footer with links
-```
+## Learn More
 
-## Deploy
+To learn more, take a look at the following resources:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-org/convertbooking-landing)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.

@@ -1,33 +1,24 @@
-import { Navbar } from "@/components/navbar";
-import { Hero } from "@/components/hero";
-import { SocialProof } from "@/components/social-proof";
-import { Problem } from "@/components/problem";
-import { HowItWorks } from "@/components/how-it-works";
-import { Features } from "@/components/features";
-import { Platforms } from "@/components/platforms";
-import { Testimonials } from "@/components/testimonials";
-import { Pricing } from "@/components/pricing";
-import { Faq } from "@/components/faq";
-import { CtaSection } from "@/components/cta-section";
-import { Footer } from "@/components/footer";
+import { SmoothScroll } from "@/components/smooth-scroll"
+import { Navbar } from "@/components/navbar"
+import { Hero } from "@/components/hero"
+import { LogoMarquee } from "@/components/logo-marquee"
+import { BentoGrid } from "@/components/bento-grid"
+import { Pricing } from "@/components/pricing"
+import { FinalCTA } from "@/components/final-cta"
+import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col">
-      <Navbar />
-      <main className="flex-1">
+    <SmoothScroll>
+      <main className="min-h-screen bg-zinc-950">
+        <Navbar />
         <Hero />
-        <SocialProof />
-        <Problem />
-        <HowItWorks />
-        <Features />
-        <Platforms />
-        <Testimonials />
+        <LogoMarquee />
+        <BentoGrid />
         <Pricing />
-        <Faq />
-        <CtaSection />
+        <FinalCTA />
+        <Footer />
       </main>
-      <Footer />
-    </div>
-  );
+    </SmoothScroll>
+  )
 }
