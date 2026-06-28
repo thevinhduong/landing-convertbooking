@@ -3,15 +3,15 @@
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
 
-const logos = [
-  { name: "Vercel", width: 100 },
-  { name: "Stripe", width: 80 },
-  { name: "Linear", width: 90 },
-  { name: "Notion", width: 100 },
-  { name: "Figma", width: 70 },
-  { name: "Slack", width: 90 },
-  { name: "Discord", width: 100 },
-  { name: "GitHub", width: 90 },
+const channels = [
+  { name: "Google Maps", width: 120 },
+  { name: "Tripadvisor", width: 120 },
+  { name: "Yelp", width: 80 },
+  { name: "Dianping", width: 100 },
+  { name: "Google Search", width: 130 },
+  { name: "Website", width: 90 },
+  { name: "SEO", width: 60 },
+  { name: "Booking.com", width: 120 },
 ]
 
 export function LogoMarquee() {
@@ -26,7 +26,7 @@ export function LogoMarquee() {
         transition={{ duration: 0.6 }}
         className="text-center mb-10"
       >
-        <p className="text-sm text-zinc-500 uppercase tracking-wider font-medium">Trusted by industry leaders</p>
+        <p className="text-sm text-zinc-500 uppercase tracking-wider font-medium">Optimize bookings across all channels</p>
       </motion.div>
 
       <div className="relative">
@@ -36,17 +36,17 @@ export function LogoMarquee() {
 
         {/* Marquee container */}
         <div className="flex animate-marquee">
-          {[...logos, ...logos].map((logo, index) => (
+          {[...channels, ...channels].map((channel, index) => (
             <div
               key={index}
               className="flex items-center justify-center min-w-[160px] h-16 mx-8 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
             >
               <div className="flex items-center gap-2 text-zinc-400">
                 <div className="w-8 h-8 rounded-lg bg-zinc-800 flex items-center justify-center">
-                  <span className="text-xs font-bold">{logo.name[0]}</span>
+                  <span className="text-xs font-bold">{channel.name[0]}</span>
                 </div>
                 <span className="font-medium" style={{ fontFamily: "var(--font-instrument-sans)" }}>
-                  {logo.name}
+                  {channel.name}
                 </span>
               </div>
             </div>

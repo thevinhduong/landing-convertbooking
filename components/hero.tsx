@@ -42,7 +42,7 @@ export function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-zinc-900 border border-zinc-800 mb-8"
         >
           <span className="w-2 h-2 rounded-full bg-emerald-500 pulse-glow" />
-          <span className="text-sm text-zinc-400">Now in Public Beta</span>
+          <span className="text-sm text-zinc-400">AI-Powered Booking Agent</span>
         </motion.div>
 
         {/* Headline with text mask animation */}
@@ -52,7 +52,7 @@ export function Hero() {
         >
           <span className="block overflow-hidden">
             <motion.span className="block" variants={textRevealVariants} initial="hidden" animate="visible" custom={0}>
-              Ship faster.
+              Get more customers.
             </motion.span>
           </span>
           <span className="block overflow-hidden">
@@ -63,7 +63,7 @@ export function Hero() {
               animate="visible"
               custom={1}
             >
-              Scale smarter.
+              On autopilot.
             </motion.span>
           </span>
         </h1>
@@ -75,8 +75,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-lg sm:text-xl text-zinc-400 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          The modern platform for teams who ship fast. Built for scale, designed for speed. Everything you need to
-          build, deploy, and grow.
+          ConvertBooking is your AI agent that optimizes your website, SEO, Google Maps, Tripadvisor, Yelp, and Dianping — so you get more customers while you run your business.
         </motion.p>
 
         {/* CTAs */}
@@ -90,7 +89,7 @@ export function Hero() {
             size="lg"
             className="shimmer-btn bg-white text-zinc-950 hover:bg-zinc-200 rounded-full px-8 h-12 text-base font-medium shadow-lg shadow-white/10"
           >
-            Start Building
+            Get Started Free
             <ArrowRight className="ml-2 w-4 h-4" />
           </Button>
           <Button
@@ -98,7 +97,7 @@ export function Hero() {
             size="lg"
             className="rounded-full px-8 h-12 text-base font-medium border-zinc-800 text-zinc-300 hover:bg-zinc-900 hover:text-white hover:border-zinc-700 bg-transparent"
           >
-            View Demo
+            See How It Works
           </Button>
         </motion.div>
 
@@ -127,7 +126,7 @@ export function Hero() {
             ))}
           </div>
           <p className="text-sm text-zinc-500">
-            Trusted by <span className="text-zinc-300 font-medium">2,000+</span> teams worldwide
+            Trusted by <span className="text-zinc-300 font-medium">500+</span> local businesses
           </p>
         </motion.div>
       </div>

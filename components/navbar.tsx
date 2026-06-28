@@ -8,8 +8,8 @@ import { Button } from "@/components/ui/button"
 const navItems = [
   { label: "Features", href: "#features" },
   { label: "Pricing", href: "#pricing" },
-  { label: "Docs", href: "#docs" },
-  { label: "Blog", href: "#blog" },
+  { label: "How It Works", href: "#how-it-works" },
+  { label: "Contact", href: "#contact" },
 ]
 
 export function Navbar() {
@@ -30,10 +30,10 @@ export function Navbar() {
       >
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center">
-            <span className="text-zinc-950 font-bold text-sm">A</span>
+          <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center">
+            <span className="text-white font-bold text-sm">CB</span>
           </div>
-          <span className="font-semibold text-white hidden sm:block">Apex</span>
+          <span className="font-semibold text-white hidden sm:block">ConvertBooking</span>
         </a>
 
         {/* Desktop Nav Items */}

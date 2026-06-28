@@ -22,10 +22,10 @@ export function FinalCTA() {
           className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight"
           style={{ fontFamily: "var(--font-instrument-sans)" }}
         >
-          Ready to ship faster?
+          Ready to get more customers?
         </h2>
         <p className="text-lg sm:text-xl text-zinc-400 mb-10 max-w-2xl mx-auto">
-          Join thousands of teams already building with Apex. Start free, no credit card required.
+          Join hundreds of restaurants, hotels, and local businesses already growing with ConvertBooking. Start free, no credit card required.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -41,11 +41,11 @@ export function FinalCTA() {
             size="lg"
             className="rounded-full px-8 h-14 text-base font-medium border-zinc-800 text-zinc-300 hover:bg-zinc-900 hover:text-white hover:border-zinc-700 bg-transparent"
           >
-            Talk to Sales
+            Book a Demo
           </Button>
         </div>
 
-        <p className="mt-8 text-sm text-zinc-500">Free forever for individuals. Team plans start at $29/month.</p>
+        <p className="mt-8 text-sm text-zinc-500">Free plan available. Paid plans start at $49/month.</p>
       </motion.div>
     </section>
   )
