@@ -23,9 +23,8 @@ const instrumentSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Apex - Enterprise SaaS Platform",
-  description: "The modern platform for teams who ship fast. Built for scale, designed for speed.",
-    generator: 'v0.app'
+  title: "ConvertBooking — AI-Powered Booking Agent for Local Businesses",
+  description: "ConvertBooking is your AI agent that optimizes your website, SEO, Google Maps, Tripadvisor, Yelp, and Dianping — so you get more customers while you run your business.",
 }
 
 export default function RootLayout({
