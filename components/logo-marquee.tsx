@@ -3,15 +3,17 @@
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
 
-const channels = [
-  { name: "Google Maps", width: 120 },
-  { name: "Tripadvisor", width: 120 },
-  { name: "Yelp", width: 80 },
-  { name: "Dianping", width: 100 },
-  { name: "Google Search", width: 130 },
-  { name: "Website", width: 90 },
-  { name: "SEO", width: 60 },
-  { name: "Booking.com", width: 120 },
+const customers = [
+  { name: "Xing Fu Tang", tagline: "Boba Tea" },
+  { name: "Ole Ole Burrito Express", tagline: "Mexican" },
+  { name: "Riceful", tagline: "Japanese" },
+  { name: "Empanada Factory", tagline: "Argentine" },
+  { name: "Blue Bottle Coffee", tagline: "Coffee" },
+  { name: "Tartine Bakery", tagline: "Bakery" },
+  { name: "Bi-Rite Market", tagline: "Grocery" },
+  { name: "La Marzocca", tagline: "Italian" },
+  { name: "Gordo Taqueria", tagline: "Mexican" },
+  { name: "Philz Coffee", tagline: "Coffee" },
 ]
 
 export function LogoMarquee() {
@@ -26,7 +28,7 @@ export function LogoMarquee() {
         transition={{ duration: 0.6 }}
         className="text-center mb-10"
       >
-        <p className="text-sm text-zinc-500 uppercase tracking-wider font-medium">Optimize bookings across all channels</p>
+        <p className="text-sm text-zinc-500 uppercase tracking-wider font-medium">Trusted by restaurant operators worldwide</p>
       </motion.div>
 
       <div className="relative">
@@ -36,18 +38,16 @@ export function LogoMarquee() {
 
         {/* Marquee container */}
         <div className="flex animate-marquee">
-          {[...channels, ...channels].map((channel, index) => (
+          {[...customers, ...customers].map((customer, index) => (
             <div
               key={index}
-              className="flex items-center justify-center min-w-[160px] h-16 mx-8 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+              className="flex items-center justify-center min-w-[200px] h-20 mx-6 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
             >
-              <div className="flex items-center gap-2 text-zinc-400">
-                <div className="w-8 h-8 rounded-lg bg-zinc-800 flex items-center justify-center">
-                  <span className="text-xs font-bold">{channel.name[0]}</span>
-                </div>
-                <span className="font-medium" style={{ fontFamily: "var(--font-instrument-sans)" }}>
-                  {channel.name}
+              <div className="flex flex-col items-center gap-1 text-zinc-400">
+                <span className="font-semibold text-sm" style={{ fontFamily: "var(--font-instrument-sans)" }}>
+                  {customer.name}
                 </span>
+                <span className="text-xs text-zinc-600">{customer.tagline}</span>
               </div>
             </div>
           ))}
