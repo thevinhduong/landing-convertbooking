@@ -42,7 +42,7 @@ export function Hero() {
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-zinc-900 border border-zinc-800 mb-8"
         >
           <span className="w-2 h-2 rounded-full bg-emerald-500 pulse-glow" />
-          <span className="text-sm text-zinc-400">AI-Powered Booking Agent</span>
+          <span className="text-sm text-zinc-400">Your AI Booking Agent</span>
         </motion.div>
 
         {/* Headline with text mask animation */}
@@ -75,7 +75,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-lg sm:text-xl text-zinc-400 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          ConvertBooking is your AI agent that optimizes your website, SEO, Google Maps, Tripadvisor, Yelp, and Dianping — so you get more customers while you run your business.
+          ConvertBooking — Your AI agent that optimizes digital display & get more customers while you run your sleep.
         </motion.p>
 
         {/* CTAs */}

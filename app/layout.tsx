@@ -17,8 +17,8 @@ const instrumentSans = Instrument_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "ConvertBooking — AI-Powered Booking Agent for Local Businesses",
-  description: "ConvertBooking is your AI agent that optimizes your website, SEO, Google Maps, Tripadvisor, Yelp, and Dianping — so you get more customers while you run your business.",
+  title: "ConvertBooking — Your AI agent that optimizes digital display & get more customers while you run your sleep",
+  description: "ConvertBooking is your AI agent that optimizes digital display & get more customers while you run your sleep.",
 }
 
 export default function RootLayout({
