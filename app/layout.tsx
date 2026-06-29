@@ -19,6 +19,15 @@ const instrumentSans = Instrument_Sans({
 export const metadata: Metadata = {
   title: "ConvertBooking — Your AI agent that optimizes digital display & get more customers while you run your sleep",
   description: "ConvertBooking is your AI agent that optimizes digital display & get more customers while you run your sleep.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", type: "image/png" },
+    ],
+  },
 }
 
 export default function RootLayout({

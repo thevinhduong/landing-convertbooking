@@ -30,9 +30,7 @@ export function Navbar() {
       >
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center">
-            <span className="text-white font-bold text-sm">CB</span>
-          </div>
+          <img src="/favicon.png" alt="ConvertBooking" className="w-8 h-8 rounded-lg" />
           <span className="font-semibold text-white hidden sm:block">ConvertBooking</span>
         </a>
 

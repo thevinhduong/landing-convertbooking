@@ -26,9 +26,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <a href="#" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">CB</span>
-              </div>
+              <img src="/favicon.png" alt="ConvertBooking" className="w-8 h-8 rounded-lg" />
               <span className="font-semibold text-white">ConvertBooking</span>
             </a>
             <p className="text-sm text-zinc-500 mb-4">AI-powered booking agent for local businesses.</p>
